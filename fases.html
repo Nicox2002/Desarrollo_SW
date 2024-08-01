@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Inicio</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">4P</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Fase</th>
+                        <th scope="col">Descripcion</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        
+                        <td>Iniciacion</td>
+                        <td>
+                            <ul>
+                                <li>Nace la idea del producto de SW</li>
+                                <li>Se identifica quien sera nuestros clientes</li>
+                                <li>Entrevistar al cliente para realizar las funcionalidades del SW final</li>
+                                <li>Analisis para identificar productos similares</li>
+                                <li>Determinar si el producto es posible realizarlo y si tendra una buena aceptaciòn</li>
+                            </ul>
+                            
+                        </td>
+                       
+                      </tr>
+                      <tr>
+                        
+                        <td>Planeaciòn</td>
+                        <td>
+                            <ul>
+                                <li>Se necesita planear los recursos necesarios para implementar el proyecto de SW (Tiempos, Cronogramas, Personal. ETC)</li>
+                                <li>Determinar el costo del proyecto y tiempo desarrollo</li>
+                                <li>Ajustar el cronograma para la entrega del proyecto</li>
+                                <li>Plan de desarrollo para las necesidades del proyecto</li>
+                                <li>Plan de Gestion de configuraciòn: (Actividades para controlar los cambios y manejo de versiones)</li>
+                            </ul>
+                            
+                        </td>
+                       
+                      </tr>
+                      <tr>
+                        <td>Analisis</td>
+                        <td>
+                            <ul>
+                                <li>Compilar la mayor informacion para las necesidades del cliente</li>
+                                <li>Se compila informacion detallada para las funcionalidades del producto, desempeño, confiabilidad, seguridad, usabilidad</li>
+                                <li>Requerimientos generales que se pueden compilar por medio de reuniones con los clientes y lluvia de ideas</li>
+                                <li>Los requrimientos definen el tipo de producto de SW que debemos hacer</li>
+                            </ul>
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Diseño
+                        <td>
+                            <ul>
+                                <li>En esta fase se define como el SW debe ser construido para cumplir con los requerimientos definidos en la fase anterior</li>
+                                <li>Definir la arquitectura del SW (Divisiòn en Sub-Sistemas) y se diseña de forma especifica cada componente del SW</li>
+                                <li>Crear con ayuda de Sketches o Mockups el diseño de como se vera el producto</li>
+                            </ul>
+    
+                        </td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Implementaciòn
+                        <td>
+                            <ul>
+                                <li>Se programa todo nuestro SW</li>
+                                <li>Elobjetivo de esta fase anterior y programarlo completamente usando las tecnologias que se hayan definido</li>
+                                <li>Tener en cuenta los componentes para el SW que se necesitan de otros fabricantes</li>
+                            </ul>
+
+                        </td>     
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pruebas
+                        <td>
+                            <ul>
+                                <li>Se prueba el SW creado para verificar si el producto cumple con los requrimientos</li>
+                                <li>Se divide en 3 Sub-Fases (1. Cada modulo se prueba de forma intdependiente, 2. Los modulos se van integrando para deterinar si la comunicacion entre modulos es correcta. 3. Ya despues de haber probado cada modulo realizar una prueba general de todos los modulos juntos.)</li>
+                            </ul>
+
+                        </td>
+                        </td>
+                      </tr>
+                      <tr>
+                        <tr>
+                        
+                            <td>Mantenimiento</td>
+                            <td>
+                                <ul>
+                                    <li>Ajustes finales en cuenato el SW, para poder liberar oficialmente al Cliente</li>
+                                    <li>Reparar fallos que se presenten durante el uso por parte de los clientes</li>
+                                    <li>Se implementan requrimientos adicionales de los clientes para las mejoras</li>
+                                    <li>Se mejoran atributos del SW como la confiabilidad, desempeño, ETC</li>
+                                    <li>Determinar el Mantenimiento se genera una nueva version de SW</li>
+                                </ul>
+                                
+                            </td>
+                           
+                          </tr>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
